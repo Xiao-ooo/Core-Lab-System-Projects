@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background: black;
+    /* background: black; */
+    background: url('/StressImage/p9.png') center/cover;
 }
 
 
@@ -19,70 +20,68 @@ body{
     
 }
 
-.p9{
-    grid-column: 1/4;
+
+.p10{
+    grid-column: 1/3;
     grid-row: 2/3;
-    
+    z-index: -1;
+
 }
 
 .p1{
-    grid-column: 1/5; 
-    grid-row: 3/4;
-    transform: rotate(90deg);
+    grid-column: 2/4; 
+    grid-row: 2/4;
+    
+}
+
+.p8{
+    grid-column: 3/4;
+    grid-row: 2/6;
+    
+} 
+
+.p6{
+    grid-column: 1/7;
+    grid-row: 2/7;
     z-index: -1;
 }
 
+
+.p2{
+    grid-column: 3/6;
+    grid-row: 3/5;
+    
+}
+
 .p3{
-    grid-column: 3/5;
-    grid-row: 4/5;
+    grid-column: 4/8;
+    grid-row: 6/8;
+    z-index: -1;
+}
+
+.p7{
+    grid-column: 2/6;
+    grid-row: 4/6;
+    transform: rotate(90deg);
+    z-index: -1;
 }
 
 .p4{
     grid-column: 4/6;
-    grid-row: 5/6;
+    grid-row: 6/8;
 }
-
-.p7{
-    grid-column: 5/7;
-    grid-row: 4/6;
-    transform: rotate(90deg);
-}
-
-.p2{
-    grid-column: 6/8;
-    grid-row: 4/5;
-    
-}
-
-
-.p6{
-    grid-column: 4/9;
-    grid-row: 2/8;
-    z-index: -1;
-    
-}
-
-.p10{
-    grid-column: 7/10;
-    grid-row: 3/5;
-    transform: rotate(90deg);
-    z-index: -1;
-
-}
-
 
 .p5{
-    grid-column: 7/9;
-    grid-row: 2/4;
-   
+    grid-column: 5/7;
+    grid-row: 4/7;
+    z-index: -1;
 }
 
-.p8{
-    grid-column: 9/11;
-    grid-row: 2/3;
-    transform: rotate(35deg);
+.p9{
+    grid-column: 2/4;
+    grid-row: 3/5;
     z-index: -1;
-} 
+}
 
 .text {
     color: white;
@@ -99,7 +98,7 @@ body{
 
 .t2 { 
     grid-column: 5/6; 
-    grid-row: 3/4; 
+    grid-row: 1/2; 
 }
 
 .t3 { 

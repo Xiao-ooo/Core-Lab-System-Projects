@@ -1,7 +1,8 @@
 body {
     margin: 0;
     height: 100vh;
-    background: black;
+    /* background: black; */
+    background: url('/CalmImage/p9.png') center/cover;
   }
 
 
@@ -70,16 +71,16 @@ body {
 }
 
 .p7{
-    grid-column: 7/10;
-    grid-row: 4/6;
-    transform: rotate(0deg);
+    grid-column: 6/10;
+    grid-row: 3/6;
+    transform: rotate(90deg);
     z-index: -1;
 }
 
 .p10{
     grid-column: 9/11;
-    grid-row: 5/11;
-    transform: rotate(-80deg);
+    grid-row: 1/3;
+    transform: rotate(180deg);
     z-index: -1;
 }
 
