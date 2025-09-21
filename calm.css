@@ -1,7 +1,6 @@
 body {
     margin: 0;
     height: 100vh;
-    /* background: black; */
     background: url('/CalmImage/p9.png') center/cover;
   }
 
@@ -92,8 +91,6 @@ body {
 }
 
 .text {
-    color: white;
-    font-size: 3rem;
     padding: 8px;
     border-radius: 6px;
     text-align: center;
@@ -101,27 +98,34 @@ body {
   }
   
 .t1 { 
-    grid-column: 2/3; 
-    grid-row: 2/3; 
+    grid-column: 3/6; 
+    grid-row: 5/7; 
+    color: rgb(88, 209, 249);
+    font-size: 3rem;
+    transform: rotate(-90deg);
 }
 
 .t2 { 
-    grid-column: 5/6; 
-    grid-row: 3/4; 
+    grid-column: 4/6; 
+    grid-row: 4/5; 
+    color: rgb(59, 134, 159);
+    font-size: 4rem;
 }
 
 .t3 { 
-    grid-column: 8/10; 
-    grid-row: 6/7; 
+    grid-column: 7/10; 
+    grid-row: 6/7;
+    color: rgb(87, 200, 165);
+    font-size: 4rem; 
 }
   
 
 .stress {
-    grid-column: 9/11;
-    grid-row: 3/4;   
-    color: white;
+    grid-column: 8/11;
+    grid-row: 3/5;   
+    color: rgb(84, 247, 174);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 4rem;
     align-self: start; 
     justify-self: center;
     font-family: 'world', sans-serif;
