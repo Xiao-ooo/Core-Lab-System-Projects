@@ -84,13 +84,20 @@ body {
     z-index: -1;
 }
 
+@font-face {
+    font-family: 'world';
+    src: url('Font/world.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .text {
     color: white;
-    font-size: 1rem;
+    font-size: 3rem;
     padding: 8px;
     border-radius: 6px;
     text-align: center;
+    font-family: 'world', sans-serif;
   }
   
 .t1 { 
@@ -117,6 +124,7 @@ body {
     font-size: 1.2rem;
     align-self: start; 
     justify-self: center;
+    font-family: 'world', sans-serif;
   }
   
 
