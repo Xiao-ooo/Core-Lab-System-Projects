@@ -84,7 +84,7 @@ body{
 
 @font-face {
     font-family: 'world';
-    src: url('Font/world.ttf') format('truetype');
+    src: url('Font/World.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
